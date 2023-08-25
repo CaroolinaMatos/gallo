@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="display">
+            <p id="screenValue" class="screen">0</p>
+        </div>
+
+        <div class="keys">
+            <div class="line">
+                <div class="key" onclick="showValue(event.srcElement.innerText)">7</div>
+                <div class="key" onclick="showValue(event.srcElement.innerText)">8</div>
+                <div class="key" onclick="showValue(event.srcElement.innerText)">9</div>
+                <div class="key" onclick="showValue(event.srcElement.innerText)">/</div>
+            </div>
+            <div class="line">
+                <div class="key" onclick="showValue(event.srcElement.innerText)">4</div>
+                <div class="key" onclick="showValue(event.srcElement.innerText)">5</div>
+                <div class="key" onclick="showValue(event.srcElement.innerText)">6</div>
+                <div class="key" onclick="showValue(event.srcElement.innerText)">X</div>
+            </div>
+            <div class="line">
+                <div class="key" onclick="showValue(event.srcElement.innerText)">1</div>
+                <div class="key" onclick="showValue(event.srcElement.innerText)">2</div>
+                <div class="key" onclick="showValue(event.srcElement.innerText)">3</div>
+                <div class="key" onclick="showValue(event.srcElement.innerText)">-</div>
+            </div>
+            <div class="line">
+                <div class="key" onclick="showValue(event.srcElement.innerText)">0</div>
+                <div class="key" onclick="showValue(event.srcElement.innerText)">.</div>
+                <div class="key" onclick="showValue(event.srcElement.innerText)">=</div>
+                <div class="key" onclick="showValue(event.srcElement.innerText)">+</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+    
